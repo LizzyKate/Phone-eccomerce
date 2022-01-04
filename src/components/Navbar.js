@@ -39,7 +39,7 @@ https://www.iconfinder.com/Makoto_msk */}
 }
 
 const NavWrapper = styled.nav`
-background:var(--mainBlue);
+background:var(--lightBlue);
 .nav-link{
     color:var(--mainWhite) !important;
     font-size:1.3rem;

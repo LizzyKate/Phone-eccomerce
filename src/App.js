@@ -4,10 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
 import Navbar from './components/Navbar'
 import ProductList from './components/ProductList'
-import Cart from './components/Cart'
 import Default from './components/Default'
 import Details from './components/Details'
 import Modal from './components/Modal'
+import Cart from './components/Cart/Cart'
 
 
 
