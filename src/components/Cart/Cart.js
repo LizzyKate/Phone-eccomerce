@@ -8,6 +8,7 @@ import CartTotals from './CartTotals'
 
 export default class Cart extends Component {
     render() {
+        console.log(this.routes)
         return (
             <section>
                 <ProductConsumer>
@@ -20,7 +21,8 @@ export default class Cart extends Component {
                                         <Title name="your" title="cart" />
                                         <Columns />
                                         <CartList value={e} />
-                                        <CartTotals value={e} />
+                                        <div></div>
+                                        <CartTotals value={e} history={this.props.history} />
                                     </React.Fragment>
                                 )
                             } else {
